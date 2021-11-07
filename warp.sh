@@ -280,7 +280,7 @@ Disconnect_WARP() {
 
 Set_WARP_Mode_Proxy() {
     log INFO "Setting up WARP Proxy Mode..."
-    warp-cli --accept-tos set-mode proxy
+    echo y|warp-cli --accept-tos set-mode proxy
 }
 
 Enable_WARP_Client_Proxy() {
